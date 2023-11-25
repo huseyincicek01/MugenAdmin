@@ -17,23 +17,23 @@
  
  -- Creates folder & files for Prefix & Plugins
  if FileSupport then
- if not isfolder('Nameless-Admin') then
- makefolder('Nameless-Admin')
+ if not isfolder('Mugen-Admin') then
+ makefolder('Mugen-Admin')
  end
  
- if not isfolder('Nameless-Admin/Plugins') then
-	 makefolder('Nameless-Admin/Plugins')
+ if not isfolder('Mugen-Admin/Plugins') then
+	 makefolder('Mugen-Admin/Plugins')
  end
  
- if not isfile("Nameless-Admin/Prefix.txt") then
- writefile("Nameless-Admin/Prefix.txt", ';')
+ if not isfile("Mugen-Admin/Prefix.txt") then
+ writefile("Mugen-Admin/Prefix.txt", ';')
  else
  end
  end
  
  -- [[ PREFIX AND OTHER STUFF. ]] -- 
  local opt = {
-	 prefix = readfile("Nameless-Admin/Prefix.txt", ';'), -- If player's executor has the custom file function support it reads the prefix file to get prefix
+	 prefix = readfile("Mugen-Admin/Prefix.txt", '.'), -- If player's executor has the custom file function support it reads the prefix file to get prefix
 	 tupleSeparator = ',',	-- ;ff me,others,all | ;ff me/others/all
 	 ui = {					-- never did anything with this
 		 
@@ -10357,15 +10357,15 @@ until glueloop == false
  end
  end)
  
- cmd.add({"unairwalk", "unaw"}, {"unairwalk (unaw)", "Stops the airwalk command"}, function()
+ cmd.add({"unfloat", "unaw"}, {"unairwalk (unaw)", "Stops the float command"}, function()
 	 for i, v in pairs(workspace:GetChildren()) do
 		 if tostring(v) == "Airwalk" then
 			 v:Destroy()
  wait();
  
  Notify({
- Description = "Airwalk: OFF";
- Title = "Nameless Admin";
+ Description = "Float: OFF";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -10374,12 +10374,12 @@ until glueloop == false
  
  end)
  
- cmd.add({"airwalk", "aw"}, {"airwalk (aw)", "Press space to go up, unairwalk to stop"}, function()
+ cmd.add({"float", "aw"}, {"float (aw)", "Press space to go up, unfloat to stop"}, function()
  wait();
  
  Notify({
- Description = "Airwalk: On";
- Title = "Nameless Admin";
+ Description = "Float: On";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -10450,7 +10450,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Boombox muted. Status: Client Sided";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
 	 });
@@ -10459,7 +10459,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Boombox muted. Status: FE";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
 	 });
