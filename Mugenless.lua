@@ -739,14 +739,14 @@
  if PrefixChange == nil then
  Notify({
  Description = "Please enter a valid prefix";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 		 
 		 });
@@ -754,7 +754,7 @@
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix set to " .. PrefixChange .. "";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -768,23 +768,23 @@
  if PrefixChange == nil then
  Notify({
  Description = "Please enter a valid prefix";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 		 
 		 });
 	 else
- writefile("Nameless-Admin\\Prefix.txt", PrefixChange)
+ writefile("Mugen-Admin\\Prefix.txt", PrefixChange)
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix saved to '" .. PrefixChange .. "'";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -827,7 +827,7 @@
  
  Notify({
  Description = "Hat orbit loaded, if you wanna orbit other people type in the chat .orbit playername";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 10;
  
  });
@@ -2210,7 +2210,7 @@ print(Time)
  
  Notify({
  Description = "Rejoining...";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -2913,7 +2913,7 @@ print(Time)
 		 
 		 Notify({
 		 Description = "Vehicle fly enabled";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 	 
  });
@@ -2932,7 +2932,7 @@ print(Time)
 		 
 		 Notify({
 		 Description = "Vehicle fly disabled";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 	 
  });
@@ -4570,7 +4570,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 						 
 						 Notify({
 						 Description = "Anti attach enabled";
-						 Title = "Nameless Admin";
+						 Title = "Mugen Admin";
 						 Duration = 5;
 						 
  });
@@ -4586,7 +4586,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 							 
 							 Notify({
 							 Description = "Anti attach disabled";
-							 Title = "Nameless Admin";
+							 Title = "Mugen Admin";
 							 Duration = 5;
 							 
  });
@@ -4598,7 +4598,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 							 
 							 Notify({
 							 Description = "Anti attach already disabled";
-							 Title = "Nameless Admin";
+							 Title = "Mugen Admin";
 							 Duration = 5;
 							 
  });
@@ -4613,7 +4613,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 							 
 							 Notify({
 							 Description = "Spawn has been set";
-							 Title = "Nameless Admin";
+							 Title = "Mugen Admin";
 							 Duration = 5;
 							 
  });
@@ -5870,20 +5870,20 @@ end
 	 local Player = getPlr(...)
 	 if Player ~= nil and not Admin[Player.UserId] then
 		 Admin[Player.UserId] = {Player = Player}
-		 ChatMessage("/w "..Player.Name.." [Nameless Admin] You've got admin. Prefix: ';'")
+		 ChatMessage("/w "..Player.Name.." [Mugen Admin] You've got admin. Prefix: ';'")
 		 wait(0.2)
-		 ChatMessage("/w "..Player.Name.." [Nameless Admin Commands] glue, unglue, fling, fling2, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
+		 ChatMessage("/w "..Player.Name.." [Mugen Admin Commands] glue, unglue, fling, fling2, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
 		 ChatMessage("/w "..Player.Name.." reset, commitoof, seizure, unseizure, toolorbit, lay, fall, toolspin, hatspin, sit, joke, kanye")
 		 Notify({
 			 Description = "" .. Player.Name .. " has now been whitelisted to use commands";
-			 Title = "Nameless Admin";
+			 Title = "Mugen Admin";
 			 Duration = 15;
 			 
 			 });
 	 else
 		 Notify({
 			 Description = "No player found";
-			 Title = "Nameless Admin";
+			 Title = "Mufen Admin";
 			 Duration = 15;
 			 
 			 });
@@ -5899,14 +5899,14 @@ end
 				 ChatMessage("/w "..Player.Name.." You can no longer use commands")
 					 Notify({
 				 Description = "" .. Player.Name .. " is no longer an admin";
-				 Title = "Nameless Admin";
+				 Title = "Mugen Admin";
 				 Duration = 15;
 				 
 				 });
 			 else
 						 Notify({
 				 Description = "Player not found";
-				 Title = "Nameless Admin";
+				 Title = "Mugen Admin";
 				 Duration = 15;
 				 
 				 });
@@ -5925,7 +5925,7 @@ end
  wait();
  Notify({
  Description = "Display names successfully removed";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -5957,7 +5957,7 @@ end
 	if not hookmetamethod then 
 		Notify({
 			Description = "Your executor does not support anticlientkick";
-			Title = "Nameless Admin";
+			Title = "Mugen Admin";
 			Duration = 5;
 			
 			});
@@ -5973,7 +5973,7 @@ end
 			return
 			Notify({
 				Description = "A kick was just attempted but was blocked";
-				Title = "Nameless Admin";
+				Title = "Mugen Admin";
 				Duration = 5;
 				
 				});
@@ -5982,7 +5982,7 @@ end
 			end)
  Notify({
  Description = "Anti kick executed";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -6001,7 +6001,7 @@ end
  
  Notify({
  Description = "Copied your jobid (" .. jobId .. ")";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -6016,7 +6016,7 @@ end
  
  Notify({
  Description = "Searching";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -6033,7 +6033,7 @@ end
 				 if #SomeSRVS > 0 then
 				 Notify({
  Description = "Searched, please wait while we are teleporting you";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -6062,7 +6062,7 @@ end
 
 		Notify({
 			Description = "Auto Rejoin is now on!";
-			Title = "Nameless Admin";
+			Title = "Mugen Admin";
 			Duration = 5;
 			
 			}); end)
@@ -6484,8 +6484,8 @@ end
 		 wait();
 		 
 		 Notify({
-		 Description = "Nameless Admin has detected you using mobile you now have a mfly button click it to enable / disable mobile flying (For easier use)";
-		 Title = "Nameless Admin";
+		 Description = "Mugen Admin has detected you using mobile you now have a mfly button click it to enable / disable mobile flying (For easier use)";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 		 });
 		 
@@ -6554,7 +6554,7 @@ end
 		 
 		 Notify({
 		 Description = "Fly enabled";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 	 
  });
@@ -6610,7 +6610,7 @@ end
  then
  Notify({
  Description = "You are now R15";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 3;
  
  });
@@ -6618,7 +6618,7 @@ end
  else
  Notify({
  Description = "An error has occured";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 3;
  
  });
@@ -6638,7 +6638,7 @@ end
  then
  Notify({
  Description = "You are now R6";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 3;
  
  });
@@ -6646,7 +6646,7 @@ end
  else
  Notify({
  Description = "An error has occured";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 3;
  
  });
@@ -7101,7 +7101,7 @@ end
 	 
 	 Notify({
 	 Description = "Hid the player";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -7148,7 +7148,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 	 
 	 Notify({
 	 Description = "Unhid the player";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
