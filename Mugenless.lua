@@ -1,12 +1,3 @@
---[[
-╭━╮╱╭╮╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╭╮            |
-┃┃╰╮┃┃╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱┃┃            |
-┃╭╮╰╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳━━╮┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the Nameless Admin source, feel free to take a look around.
-┃┃╰╮┃┃╭╮┃╰╯┃┃━┫┃┃┃━┫━━┫━━┫┃╰━╯┃╭╮┃╰╯┣┫╭╮╮    | Enjoy.
-┃┃╱┃┃┃╭╮┃┃┃┃┃━┫╰┫┃━╋━━┣━━┃┃╭━╮┃╰╯┃┃┃┃┃┃┃┃    |
-╰╯╱╰━┻╯╰┻┻┻┻━━┻━┻━━┻━━┻━━╯╰╯╱╰┻━━┻┻┻┻┻╯╰╯    |
---]]
-
  -- Waits until game is loaded
  local game = game
  local GetService = game.GetService
@@ -2029,8 +2020,8 @@ print(Time)
  cmd.add({"commandcount", "cc"}, {"commandcount (cc)", "Counds how many commands NA has"}, function()
  
  Notify({
-	 Description = "Nameless Admin currently has ".. commandcount .. " commands";
-	 Title = "Nameless Admin";
+	 Description = "Mugen Admin currently has ".. commandcount .. " commands";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
 	 });
@@ -2040,7 +2031,7 @@ print(Time)
  cmd.add({"walkfling", "wfling"}, {"walkfling (wfling) [THANKS TO X]", "probably the best fling lol"}, function()
 	 Notify({
 		 Description = "Walkfling enabled";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 		 
 		 });
@@ -2086,7 +2077,7 @@ print(Time)
  cmd.add({"unwalkfling", "unwfling"}, {"unwalkfling (unwfling)", "stop the walkfling command"}, function()
 	 Notify({
 		 Description = "Walkfling disabled";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 5;
 		 
 		 });
@@ -2452,7 +2443,7 @@ print(Time)
  
  Notify({
  Description = accountage;
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 7;
  
  });
@@ -3286,7 +3277,7 @@ print(Time)
  
  Notify({
  Description = "Break layered clothing executed, if you havent already equip shirt, jacket, pants and shoes (Layered Clothing ones)";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -3650,7 +3641,7 @@ print(Time)
  else
  Notify({
  Description = "Sorry, wont replicate for this game, try another game.";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -4254,7 +4245,7 @@ print(Time)
 					 
 					 Notify({
 					 Description = "Anti sit enabled";
-					 Title = "Nameless Admin";
+					 Title = "Mugen Admin";
 					 Duration = 5;
 					 
  });
@@ -4270,7 +4261,7 @@ print(Time)
 					 
 					 Notify({
 					 Description = "Anti sit disabled";
-					 Title = "Nameless Admin";
+					 Title = "Mugen Admin";
 					 Duration = 5;
 					 
  });
@@ -4299,7 +4290,7 @@ print(Time)
  
 			 Notify({
 				 Description = "Respect Filtering Enabled is on";
-				 Title = "Nameless Admin";
+				 Title = "Mugen Admin";
 				 Duration = 5;
 				 
 				 });
@@ -4307,7 +4298,7 @@ print(Time)
 				 
  Notify({
 	 Description = "Respect Filtering Enabled is off";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
 	 });
@@ -4388,7 +4379,7 @@ print(Time)
 		 cmd.add({"harked", "comet"}, {"harked (comet)", "Executes Comet which is like harked"}, function()
 			 Notify({
  Description = "Join the discord to see supported games! Use the discord command to get the invite";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 7;
  
  });
@@ -4729,7 +4720,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 						 
 						 Notify({
 						 Description = "Anti AFK disabled";
-						 Title = "Nameless Admin";
+						 Title = "Mugen Admin";
 						 Duration = 5;
 						 
  });
@@ -4738,7 +4729,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 						 
 						 Notify({
 						 Description = "Anti AFK already disabled";
-						 Title = "Nameless Admin";
+						 Title = "Mugen Admin";
 						 Duration = 5;
 						 
  });
@@ -4751,7 +4742,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
  
  Notify({
  Description = "For a better experience, use R6 if you want tools do ;dupetools 5";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -4813,7 +4804,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 					 
 					 Notify({
 					 Description = "Anti kill enabled";
-					 Title = "Nameless Admin";
+					 Title = "Mugen Admin";
 					 Duration = 5;
 					 
  });
@@ -4845,7 +4836,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 				 
 				 Notify({
 				 Description = "Anti kill disabled";
-				 Title = "Nameless Admin";
+				 Title = "Mugen Admin";
 				 Duration = 5;
 				 
  });
@@ -4882,7 +4873,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
  wait();
  Notify({
  Description = "Anti fling enabled";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
 });
@@ -4894,7 +4885,7 @@ AntiFling = true
 wait();
 Notify({
 Description = "Anti fling disabled";
-Title = "Nameless Admin";
+Title = "Mugen Admin";
 Duration = 5;
 
 });
@@ -4915,7 +4906,7 @@ end
 				wait();
 				Notify({
 				Description = "Wait a few seconds for it to load";
-				Title = "Nameless Admin";
+				Title = "Mugen Admin";
 				Duration = 5;
 				
 });
@@ -5092,7 +5083,7 @@ until npcfollowloop == false
  
  Notify({
  Description = "ControlNPCs executed, CTRL + Click on an NPC";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -5150,7 +5141,7 @@ until npcfollowloop == false
  
  Notify({
  Description = "AttachPart executed, CTRL + Click on a part";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -5512,7 +5503,7 @@ end
  
  Notify({
  Description = "Netless has been activated, re-run this script if you die";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -5526,7 +5517,7 @@ end
  
  Notify({
  Description = "Get ready to launch...";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -5685,7 +5676,7 @@ end
  
  Notify({
  Description = "Kidnapping... next time take a van, or not";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
