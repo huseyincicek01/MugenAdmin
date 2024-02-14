@@ -44,7 +44,7 @@
  }
  
  -- [[ Version ]] -- 
- currentversion = 1.13
+ currentversion = 666
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -10716,7 +10716,7 @@ until glueloop == false
  
  Notify({
  Description = "Boombox glitched. Status: Client Sided";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -10729,7 +10729,7 @@ until glueloop == false
  
  Notify({
  Description = "Boombox glitched. Status: FE";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -10761,7 +10761,7 @@ until glueloop == false
 			 
 			 Notify({
 			 Description = "Boombox unglitched. Status: FE";
-			 Title = "Nameless Admin";
+			 Title = "Mugen Admin";
 			 Duration = 5;
 			 
 			 });
@@ -11919,7 +11919,7 @@ until glueloop == false
 					 
 					 Notify({
 					 Description = "Purchase prompts have been disabled";
-					 Title = "Nameless Admin";
+					 Title = "Mugen Admin";
 					 Duration = 5;
 					 
 					 });
@@ -11934,7 +11934,7 @@ until glueloop == false
 					 
 					 Notify({
 					 Description = "Purchase prompts have been enabled";
-					 Title = "Nameless Admin";
+					 Title = "Mugen Admin";
 					 Duration = 5;
 					 
 					 });
@@ -12012,7 +12012,7 @@ until glueloop == false
  
  Notify({
  Description = "Hold parts loaded, ctrl + click on a part";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -12142,7 +12142,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Spinning...";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12172,7 +12172,7 @@ until glueloop == false
  
  Notify({
  Description = "Spin disabled";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -12214,7 +12214,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Name has been hidden, this only works on billboard guis / custom name fonts";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12232,7 +12232,7 @@ until glueloop == false
  webImport("ui/main")
  end)
  
- cmd.add({"remotespy", "simplespy"}, {"remotespy (simplespy)", "executes simplespy v3"}, function()
+ cmd.add({"remotespy", "simplespy", "rspy"}, {"remotespy (simplespy)", "executes simplespy v3"}, function()
  loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
  end)
  
@@ -12245,7 +12245,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Made unanchored parts have no gravity";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12303,7 +12303,7 @@ until glueloop == false
  
  Notify({
  Description = "Fired " .. ccamount .. " amount of click detectors";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 7;
  
  });
@@ -12492,7 +12492,7 @@ loophitbox = false
  
  Notify({
  Description = "Hitbox changed";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -12570,7 +12570,7 @@ end)
  
  Notify({
  Description = "Car breaker loaded, sit on a vehicle need to be the driver";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -12664,7 +12664,7 @@ end)
  
  Notify({
  Description = "Fired " .. ftiamount .. " amount of touch interests";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 7;
  
  });
@@ -12678,7 +12678,7 @@ end)
 	 
 	 Notify({
 	 Description = "Infinite jump enabled";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12706,7 +12706,7 @@ end)
  
  Notify({
  Description = "Infinite jump disabled";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -12734,7 +12734,7 @@ end)
 	 
 	 Notify({
 	 Description = "Xray enabled";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12750,7 +12750,7 @@ end)
 	 
 	 Notify({
 	 Description = "Xray disabled";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12766,7 +12766,7 @@ end)
 	 
 	 Notify({
 	 Description = "Pastebin scraper loaded";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12785,7 +12785,7 @@ end)
 	 
 	 Notify({
 	 Description = "Amog us...";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -12868,13 +12868,13 @@ end)
 	 
 	 Notify({
 	 Description = "Blackhole has been loaded, press e to change the position to where your mouse is";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
  end)
  
- cmd.add({"fullbright", "fullb"}, {"fullbright (fullb)", "Makes games that are really dark to have no darkness and be really light"}, function()
+ cmd.add({"fullbright", "fullb", "fb"}, {"fullbright (fullb)", "Makes games that are really dark to have no darkness and be really light"}, function()
 	 if not _G.FullBrightExecuted then
  
 		 _G.FullBrightEnabled = false
@@ -13004,7 +13004,7 @@ end)
  
  Notify({
  Description = "Fired " .. fppamount .. " of proximity prompts";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 7;
  
  });
@@ -13039,7 +13039,7 @@ end)
 	 execCmd((...))
 	 end)
  
- cmd.add({"chatspy"}, {"chatspy", "Spies on chat, enables chat, spies whispers etc."}, function()
+ cmd.add({"chatspy", "spy"}, {"chatspy", "Spies on chat, enables chat, spies whispers etc."}, function()
 	 
 	 
 	 
@@ -13047,7 +13047,7 @@ end)
 	 
 	 Notify({
 	 Description = "Chat spy enabled";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -13495,7 +13495,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	 
 			Notify({
 			Description = "Sorry, your exploit does not support cameranoclip";
-			Title = "Nameless Admin";
+			Title = "Mugen Admin";
 			Duration = 5;
 			
 		});
@@ -13523,7 +13523,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	 
 			Notify({
 			Description = "Sorry, your exploit does not support cameranoclip and uncameranoclip";
-			Title = "Nameless Admin";
+			Title = "Mugen Admin";
 			Duration = 5;
 			
 		});
@@ -13542,7 +13542,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	 
 	 Notify({
 	 Description = "OG animations set";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -13642,7 +13642,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
  end
  end)
 
-  cmd.add({"toolinvisible"}, {"toolinvisible", "Be invisible while still be able to use tools"}, function()
+  cmd.add({"toolinvisible", "tinvis"}, {"toolinvisible", "Be invisible while still be able to use tools"}, function()
 	local offset = 1100
 	local invisible = game.Players.LocalPlayer
 	local grips = {}
@@ -13761,7 +13761,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	)
 end)
  
- cmd.add({"invisible"}, {"invisible", "Sets invisibility to scare people or something"}, function()
+ cmd.add({"invisible", "invis", "inv"}, {"invisible", "Sets invisibility to scare people or something"}, function()
 	 Keybind = "E"
  
 	 local CS = game:GetService("CollectionService")
@@ -13914,7 +13914,7 @@ end)
  
  Notify({
  Description = "Invisible loaded, press " .. Keybind .. " to toggle";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 10;
  
  });
@@ -13923,8 +13923,8 @@ end)
 	 wait();
 	 
 	 Notify({
-	 Description = "Nameless Admin has detected you using mobile you now have a invisible button click it to enable / disable invisibility";
-	 Title = "Nameless Admin";
+	 Description = "Mugen Admin has detected you using mobile you now have a invisible button click it to enable / disable invisibility";
+	 Title = "Mugen Admin";
 	 Duration = 7;
 	 });
 	 
@@ -14005,7 +14005,7 @@ end)
  end
  end)
  
- cmd.add({"unchatspy"}, {"unchat", "Unspies on chat, enables chat, spies whispers etc."}, function()
+ cmd.add({"unchatspy", "unspy"}, {"unchat", "Unspies on chat, enables chat, spies whispers etc."}, function()
 	 
  
  
@@ -14013,7 +14013,7 @@ end)
  
  Notify({
  Description = "Chat spy enabled";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -14083,7 +14083,7 @@ end)
  chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
  end)
  
- cmd.add({"fireremotes"}, {"fireremotes", "Fires every remote."}, function()
+ cmd.add({"fireremotes", "remote"}, {"fireremotes", "Fires every remote."}, function()
  local remoteamount = 0
  
  for i,v in pairs(game:GetDescendants()) do
@@ -14104,7 +14104,7 @@ end)
  
  Notify({
  Description = "Fired " .. remoteamount .. " amount of remotes";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 7;
  
  });
@@ -14116,7 +14116,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unanchored follow executed";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -14222,7 +14222,7 @@ end)
  
  Notify({
  Description = "Grabbed all tools";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -14260,7 +14260,7 @@ end)
 		 game.Players.LocalPlayer.Character.Humanoid.JumpPower = (...)
 		 end)
  
-		 cmd.add({"oofspam"}, {"oofspam", "Spams oof"}, function()
+		 cmd.add({"oofspam", "oof"}, {"oofspam", "Spams oof"}, function()
 			 _G.enabled = true
  _G.speed = 100
  local HRP = Humanoid.RootPart or Humanoid:FindFirstChild("HumanoidRootPart")
@@ -14287,12 +14287,12 @@ end)
 		 
 		 
  
- cmd.add({"partgrabber"}, {"partgrabber", "Press Q"}, function()
+ cmd.add({"partgrabber", "grabpart"}, {"partgrabber", "Press Q"}, function()
 	 wait();
 	 
 	 Notify({
 	 Description = "Part grabber executed, press Q on a part";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -14411,7 +14411,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unanchored parts have been teleported to " .. TargetName .. "" ;
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -14487,7 +14487,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unfroze unanchored parts";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -14511,7 +14511,7 @@ end)
 	 
 	 Notify({
 	 Description = "Highlighted all unanchored parts";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -14530,7 +14530,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unhighlighted unanchored parts";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -14554,7 +14554,7 @@ end)
 	 
 	 Notify({
 	 Description = "Parts have been counted, the amount is " .. b .. "";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 	 Duration = 5;
 	 
  });
@@ -14568,12 +14568,12 @@ end)
 	 loadstring(game:HttpGet("https://system-exodus.com/scripts/misc-releases/Keystrokes.lua",true))()
  end)
  
- cmd.add({"ownerid"}, {"ownerid", "Changes the client id to the owner's. Can give special things"}, function()
+ cmd.add({"ownerid", "creator"}, {"ownerid", "Changes the client id to the owner's. Can give special things"}, function()
  wait();
  
  Notify({
  Description = "Set local player id to the owner id";
- Title = "Nameless Admin";
+ Title = "Mugen Admin";
  Duration = 5;
  
  });
@@ -14612,7 +14612,7 @@ end)
 	 PluginsErrored = PluginsErrored + 1
 	 Notify({
 		 Description = "Plugin error: " .. result .. "";
-		 Title = "Nameless Admin";
+		 Title = "Mugen Admin";
 		 Duration = 3;
 		 
 		 });
@@ -14622,14 +14622,14 @@ end)
  if PluginsErrored == 0 then
 	 Notify({
 			 Description = "Loaded " .. PluginsLoaded .. " plugins";
-			 Title = "Nameless Admin";
+			 Title = "Mugen Admin";
 			 Duration = 3;
 			 
 			 });
  else
 	 Notify({
 	 Description = "Loaded " .. PluginsLoaded .. " plugins, although " .. PluginsErrored .. " plugins have errored";
-	 Title = "Nameless Admin";
+	 Title = "Mugen Admin";
 			 Duration = 3;
 			 
 			 });
@@ -15106,14 +15106,14 @@ end
  ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
  ScreenGui.ResetOnSpawn = true
  
- TextClickButton.Name = "NamelessAdminButton"
+ TextClickButton.Name = "MugenAdminButton"
  TextClickButton.Parent = ScreenGui
  TextClickButton.BackgroundColor3 = Color3.fromRGB(4, 4, 4)
  TextClickButton.BackgroundTransparency = 1.000
  TextClickButton.Position = UDim2.new(0.418, 0,0, 0)
  TextClickButton.Size = UDim2.new(0, 2, 0, 33)
  TextClickButton.Font = Enum.Font.SourceSansBold
- TextClickButton.Text = "Nameless Admin " .. currentversion .. ""
+ TextClickButton.Text = "Mugen Admin " .. currentversion .. ""
  TextClickButton.TextColor3 = Color3.fromRGB(255, 255, 255)
  TextClickButton.TextSize = 20.000
  TextClickButton.TextWrapped = true
@@ -15131,7 +15131,7 @@ end
 	 textclickbutton:TweenSize(UDim2.new(0, 32, 0, 33), "Out", "Quint",1,true)
 	 textclickbutton:TweenPosition(UDim2.new(0.48909232, 0, 0, 0), "Out", "Quint",1,true)
 	 wait(0.4)
-	 textclickbutton.Text = "NA"
+	 textclickbutton.Text = "MA"
 	 textclickbutton.Active = true
  gui.draggable(textclickbutton)
  end
